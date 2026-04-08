@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0f19;
+  color: white;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111827;
+  border-bottom: 2px solid #00ff88;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 180px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  background: #111827;
+  border: 1px solid #1f2937;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Colors */
+.green h2 {
+  color: #00ff88;
+}
+
+.blue h2 {
+  color: #00c6ff;
+}
+
+/* Table */
+.table-section {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  width: 70%;
+  border-collapse: collapse;
+  background: #111827;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #1f2937;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border-top: 1px solid #333;
+}

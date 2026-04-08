@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة العمليات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>📊 لوحة العمليات</h1>
+  <p>نظام متابعة الحالات</p>
+</header>
+
+<section class="stats">
+
+  <div class="card green">
+    <h2 data-target="1200">0</h2>
+    <p>بلاغات</p>
+  </div>
+
+  <div class="card blue">
+    <h2 data-target="850">0</h2>
+    <p>حالات إسعاف</p>
+  </div>
+
+  <div class="card green">
+    <h2 data-target="350">0</h2>
+    <p>حوادث</p>
+  </div>
+
+</section>
+
+<section class="table-section">
+  <h2>📊 تفاصيل العمليات</h2>
+
+  <table>
+    <tr>
+      <th>النوع</th>
+      <th>العدد</th>
+    </tr>
+    <tr>
+      <td>طبية</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>حوادث</td>
+      <td>400</td>
+    </tr>
+  </table>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
